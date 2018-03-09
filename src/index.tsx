@@ -87,6 +87,7 @@ export class AppTest extends BaseComponent<AppTestProps, AppTestState> {
         <div className="jumbotron">
           <h1>Ozytis React Components</h1>
           <blockquote>npm i --save ozytis-react-components</blockquote>
+          <blockquote>Source de cette page: <a href="https://github.com/Ozytis/react-components-demo">https://github.com/Ozytis/react-components-demo</a></blockquote>
         </div>
 
         <PanelGroup>
