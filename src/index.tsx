@@ -28,6 +28,7 @@ import { WizardDemo } from "./wizard-demo";
 import { BootstrapDemo } from "./bootstrap-demo";
 import { PanelsDemo } from "./panels-demo";
 import { ControlDemo } from "./controls-demo";
+import { MenuDemo } from "./menu-demo";
 
 interface AppTestProps {
   history?: H.History;
@@ -53,6 +54,7 @@ export class AppTest extends BaseComponent<AppTestProps, AppTestState> {
     new BaseRouteConfig("/bootstrap/panels", "Panels / Cards", PanelsDemo, false),
     new BaseRouteConfig("/bootstrap/controls", "Formulaires", ControlDemo, false),
     new BaseRouteConfig("/wizards", "Wizard", WizardDemo, false),
+    new BaseRouteConfig("/menus", "Menus", MenuDemo, false),
     new BaseRouteConfig("/others", "Autres", OtherDemo, false)
   ];
 

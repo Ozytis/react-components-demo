@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "less": "^3.0.1",
-    "ozytis-react-components": "file:../react-components/ozytis-react-components-0.0.4.tgz",
+    "ozytis-react-components": "file:../react-components/ozytis-react-components-0.0.5.tgz",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
