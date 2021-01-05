@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "ozytis-react-components": "0.0.12",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
